@@ -10,45 +10,58 @@
     <body>
         <div class="mainContainer">
 
-            <div class="rightC">
-                <img src="img.jpg">
-
+            <div class="leftC">
+                <div class="image"></div>
+                <div class="overlay">
+                  <div class="logo"></div>
+                </div>
             </div>
 
-            <div class="leftC">
+            <div class="rightC">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam porro nihil sed, soluta perferendis deleniti hic minima obcaecati impedit non magni officiis ipsa enim ab veritatis, officia facilis, dolores dolore.
                 </p>
-                <form>
-                    <label for="firstname">First name:
-                        <input type="text" id="firstname" name="firstName" required>
-                    </label>
-                    <label for="lastname">Last name:
-                        <input type="text" id="lastname" name="LastName" required>
-                    </label>
-                    <label for="email">Email:
-                        <input type="email" id="email" name="email" required>
-                    </label>
-                    <label for="phone">Phone-number:
-                        <input type="number" id="phone" name="phone">
-                    </label>
-                    <label for="password">Password:
-                        <input type="password" id="password" name="password" required>
-                    </label>
-                    <label for="confirmPass">Confirm Password:
-                        <input type="password" id="confirmPass" name="confirmPass" required>
-                    </label>
-                </form>
-            
-            </div>
+                
+                    <form>
+                        
+                        <div class="input-group">
+                            <label for="firstname">First name:</label>
+                                <input type="text" id="firstname" name="firstName" required>
+                        </div>
+                        <div class="input-group">    
+                            <label for="lastname">Last name:</label>
+                                <input type="text" id="lastname" name="LastName" required>
+                        </div>
+                        <div class="input-group">    
+                            <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-group">    
+                            <label for="phone">Phone-number:</label>
+                                <input type="number" id="phone" name="phone">
+                        </div>
+                        <div class="input-group">    
+                            <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="input-group">    
+                            <label for="confirmPass">Confirm Password:</label>
+                                <input type="password" id="confirmPass" name="confirmPass" required>
+                        </div>
+                       
 
-            
-    
-    
-    
-    
-    
+
+                        <button type="submit">Create Account</button>                        
+                    </form>
+                    
+                
+                <p>
+            Already have an account?
+        <a href="#">Log in</a></p>
+            </div>
+          
+ 
         </div>
-    
+       
     </body>
 </html>
